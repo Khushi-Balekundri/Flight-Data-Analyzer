@@ -6,7 +6,7 @@ and detect safety-relevant events using rule-based logic.
 ## Features
 - Flight phase detection
 - Rule-based safety event detection
-- Modular, simulator-agnostic design
+- Modular, simulator-agnostic design 
 
 ## Assumptions
 - Thresholds are indicative and non-certified
