@@ -12,7 +12,7 @@ and detect safety-relevant events using rule-based logic.
 - Thresholds are indicative and non-certified
 - Intended for post-flight analysis only
 
-## Rule Examples
+## Rule Examples   
 - Excessive bank angle (>30°)
 - Excessive pitch attitude
 - Rapid descent rate
