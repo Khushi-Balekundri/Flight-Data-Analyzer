@@ -22,6 +22,6 @@ Rules are evaluated per time-step and reported with timestamps
 for further inspection.
 
 ## Usage
-python main.py
+python main.py  
 
 
