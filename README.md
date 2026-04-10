@@ -1,8 +1,8 @@
 # Flight Data Analyzer (Telemetry Analysis & System Health Monitoring)
 
-A rule-based telemetry analysis system for classifying system states and detecting anomalies from time-series flight data.
+This is a rule-based telemetry analysis system for classifying system states and detecting anomalies from time-series flight data.
 
-Designed to emulate post-mission analysis workflows, enabling system health assessment, validation of expected behavior, and structured detection of safety-relevant events.
+It is designed to emulate post-mission analysis workflows, enabling system health assessment, validation of expected behavior, and structured detection of safety-relevant events.
 
 ## Why this project matters
 * Demonstrates how telemetry data can be used to infer system state and behavior
@@ -29,7 +29,7 @@ Preprocessing Steps
 
 Analysis is performed directly on recorded telemetry without resampling or interpolation.
 
-This design choice is intentional:
+This design choice is intentional as it:
 
 - Preserves original signal characteristics and sharp transitions
 - Avoids smoothing effects that may mask safety-critical anomalies
