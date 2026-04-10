@@ -16,6 +16,27 @@ Designed to emulate post-mission analysis workflows, enabling system health asse
 - Modular rule structure for extending system checks
 - Designed for explainability, traceability, and debugging
 
+## Data Processing Approach
+
+This system operates on recorded flight telemetry data with minimal preprocessing to preserve the integrity of the original signals.
+
+Preprocessing Steps
+- Selection of relevant telemetry parameters (e.g., altitude, vertical speed, attitude)
+- Handling of missing or invalid values
+- Chronological sorting of time-series data
+- Basic normalization of column naming for consistency
+- Design Decision: No Interpolation
+
+Analysis is performed directly on recorded telemetry without resampling or interpolation.
+
+This design choice is intentional:
+
+- Preserves original signal characteristics and sharp transitions
+- Avoids smoothing effects that may mask safety-critical anomalies
+- Ensures rule-based detection operates on true observed data
+
+This approach aligns with post-flight analysis scenarios where data fidelity is prioritized over visual smoothness.
+
 ## Rule Examples   
 - Excessive bank angle (>30°)
 - Excessive pitch attitude
